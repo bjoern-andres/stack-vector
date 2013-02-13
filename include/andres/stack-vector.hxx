@@ -8,8 +8,8 @@
 
 namespace andres {
 
-/// container with flexible size and fixed maximum size, allocation on the stack.
-/// compatible with std::vector, not std::array.
+/// STL-compliant container with flexible size, fixed maximum size and 
+/// allocation on the stack. compatible with std::vector, not std::array.
 template<class T, std::size_t N>
 class StackVector {
 public:
